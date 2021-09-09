@@ -21,9 +21,14 @@ const ComMentsPost = (state : CommentType) => {
             </div>
           </div>
 
-        <Repile
-        
-        ></Repile>
+          {state.replies.map(x => <Repile 
+            username={x.username}
+            userImagePath={x.userImagePath}
+            commentText={x.commentText}
+            likeNum={x.likeNum}
+            replies={x.replies}
+            />
+            )}
         </div>
     )
 }
