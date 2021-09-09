@@ -14,10 +14,12 @@ const ComMentsPost = (state : CommentType) => {
               <p className="font-semibold">{state.username}</p>
               <p>{state.commentText}</p>
               {/* like section (จะไม่แสดงถ้าไม่มีใครไลค์เลย) */}
+              {state.likeNum > 0 ? 
               <div className='flex items-center'>
                 <img className='w-4 h-4 mr-1' src='/like.svg'></img>
                 <p className='text-gray-500'>{state.likeNum}</p>
               </div>
+              : ''}
             </div>
           </div>
 
