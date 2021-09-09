@@ -6,4 +6,5 @@ https://o365cmu-my.sharepoint.com/:b:/g/personal/chayanin_s_cmu_ac_th1/EbyuqawnO
 
 เมื่อ Deploy app เรียบร้อยแล้ว ให้ใส่ URL ที่นี่ : http://winnapat.surge.sh/
 
-เผลอ build ใหม่หลังเวลาควิช ลิ้งเก่าเลยพังครับ : https://surgelate.surge.sh/อันนี้เป็นหลังจากมาทำต่อให้เสร็จขอโทษด้วยครับ
+เผลอ build ใหม่หลังเวลาควิช ลิ้งเก่าเลยพังครับ : https://surgelate.surge.sh/
+อันนี้เป็นหลังจากมาทำต่อให้เสร็จขอโทษด้วยครับ
